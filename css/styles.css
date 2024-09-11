@@ -1,0 +1,39 @@
+body {
+  background-color: #212121;
+}
+
+@font-face {
+  font-family: "Emulogic";
+  src: url(../fonts/Emulogic-zrEw.ttf) format("truetype");
+}
+
+.header__inner {
+  max-height: 90px;
+  margin-bottom: 40px;
+}
+
+.header__logo {
+  display: block;
+  max-height: 60px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.game__inner {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.game__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game__info p {
+  font-family: "Emulogic";
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+}
